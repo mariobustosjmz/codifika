@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8">
+  <title>Codifika</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/programacion.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script src="js/map.js"></script>
+  <script src="js/funciones.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="brand">
+    <img src="img/logo-01.svg" alt="">
+    <h4>CODIFIKA<span>&reg;</span></h4>
+  </div>
+</div>
+
+<nav>
+<div class="container">
+  <ul id="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="cursos.html">Cursos</a></li>
+    <li><a href="mapa.html">Mapa</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li>  
+    </li>
+  </ul>
+</div>
+</nav>
+
+<section class="sct3">
+    <h2>Contacto</h2> 
+    <form name="formulario" id="miformulario" method="post" action="enviar.php">
+      <label id="form-title">Registro</label>
+      <label id="form-label">Nombre:</label>
+      <input name="nombre" id="nombre" type="text" placeholder="Ingresa tu nombre" required>
+      <label id="form-label">Correo:</label>
+      <input name="correo" id="email" type="text" placeholder="Ingresa correo" required>
+      <label id="form-label">Asunto:</label>
+      <textarea name="asunto" id="mensaje" placeholder="Pide informes"></textarea>
+      <div type="submit" name="enviar"  id="enviar" class="btn-send"><p>Enviar</p></div>
+    </form>
+    <div id="estatus"></div>
+    <div id="estatus_wrong"></div>
+</section>
+
+<footer>
+<div class="row-ftr">
+  <div class="box-ftr1">
+    <div class="glue-ftr">
+      <h4>CODIFIKA<span>&reg;</span></h4>
+      <img src="img/logo-bn.png"alt="">
+    </div>
+  </div>
+  <div class="box-ftr2">
+    <ul>
+      <h5>Nosotros</h5>  
+      <li>Manuales<div class="invisible"></div></li>
+      <li>Videos<div class="invisible"></div></li>
+      <li>Preguntas Frecuentes<div class="invisible"></div></li>
+      <li>Unetenos<div class="invisible"></div></li>
+    </ul>
+  </div>
+  <div class="box-ftr3">
+    <ul >
+      <h5>Redes Sociales</h5>  
+      <li><img src="img/git.png" alt="">Github</li>
+      <li><img src="img/yt.png" alt="">Youtube</li>
+      <li><img src="img/fb.png" alt="">Facebook</li>
+      <li><img src="img/it.png" alt="">Instagram</li>
+    </ul>  
+  </div>
+</div>  
+</footer> 
+
+</body>
+</html>

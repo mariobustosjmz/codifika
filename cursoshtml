@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Codifika</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/programacion.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script src="js/map.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="brand">
+    <img src="img/logo-01.svg" alt="">
+    <h4>CODIFIKA<span>&reg;</span></h4>
+  </div>
+</div>
+<nav>
+<div class="container">
+  <ul id="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="cursos.html">Cursos</a></li>
+    <li><a href="mapa.html">Mapa</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li>  
+    </li>
+  </ul>
+</div>
+</nav>
+<section class="sct4">
+    <div class="cursos container-ctm">
+      <div class="row-ctm">
+        <div class="twelve columns">
+          <h1 id="title-p">Diseño Web</h1>
+        </div>
+      </div>
+      <div class="row-ctm">
+        <div class="six-columns">
+          <h2>Crea increíbles web sites <br><span>con la tecnología que amas <br>HTML5, CSS3 y Javascript</span></h2>
+          <div class="btn-send btn-p">
+            <a href="pdf/temario-web.pdf"><p>Temario</p></a>
+          </div>
+        </div>
+        <div class="six-columns hrt">
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <h1 id="title-p">Programación</h1>
+        </div>
+      </div>
+      <div class="row-ctm1">
+        <div class="six-columns ang">
+        </div>
+        <div class="six-columns">
+          <h2>Apps multiOS<br><span>con el poder de Javascript <br>y el MVC de Angular JS</span></h2>
+          <div class="btn-send btn-p">
+            <a href="pdf/temario-pg.pdf"><p>Temario</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <h1 id="title-p">Diseño Gráfico</h1>
+        </div>
+      </div>
+      <div class="row-ctm">
+        <div class="six-columns">
+          <h2>Te damos la formula<br><span>para diseñar de forma creativa <br>y espectacular</span></h2>
+          <div class="btn-send btn-p">
+            <a href="pdf/temario-dg.pdf"><p>Temario</p></a>
+          </div>
+        </div>
+        <div class="six-columns brn">
+        </div>
+      </div>
+    </div>
+</section>
+
+<footer>
+<div class="row-ftr">
+  <div class="box-ftr1">
+    <div class="glue-ftr">
+      <h4>CODIFIKA<span>&reg;</span></h4>
+      <img src="img/logo-bn.png"alt="">
+    </div>
+  </div>
+  <div class="box-ftr2">
+    <ul>
+      <h5>Nosotros</h5>  
+      <li>Manuales<div class="invisible"></div></li>
+      <li>Videos<div class="invisible"></div></li>
+      <li>Preguntas Frecuentes<div class="invisible"></div></li>
+      <li>Unetenos<div class="invisible"></div></li>
+    </ul>
+  </div>
+  <div class="box-ftr3">
+    <ul >
+      <h5>Redes Sociales</h5>  
+      <li><img src="img/git.png" alt="">Github</li>
+      <li><img src="img/yt.png" alt="">Youtube</li>
+      <li><img src="img/fb.png" alt="">Facebook</li>
+      <li><img src="img/it.png" alt="">Instagram</li>
+    </ul>  
+  </div>
+</div>  
+</footer> 
+
+</body>
+</html>

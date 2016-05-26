@@ -1,0 +1,30 @@
+{
+  "name": "codifika",
+  "authors": [
+    "rulo"
+  ],
+  "description": "school",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "diseño",
+    "web",
+    "diseño",
+    "gráfico"
+  ],
+  "license": "MIT",
+  "homepage": "codifika.mx",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "skeleton": "skeleton-css#~2.0.4",
+    "slicknav": "~1.0.5"
+  }
+}
